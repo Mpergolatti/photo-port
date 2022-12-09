@@ -35,4 +35,5 @@ describe('links are visible', () => {
     expect(getByTestId('link')).toHaveTextContent('Oh Snap!');
     expect(getByTestId('about')).toHaveTextContent('About Me');
   });
+
 })
